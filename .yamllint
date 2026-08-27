@@ -6,7 +6,8 @@ rules:
     max: 180
     level: warning
   document-start: disable
-  indentation: disable
+  indentation:
+    indent-sequences: consistent
   comments:
     min-spaces-from-content: 1
   comments-indentation:
